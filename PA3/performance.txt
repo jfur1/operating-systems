@@ -1,0 +1,72 @@
+John Furlong
+CSCI 3753
+Assignment 3
+Performance
+
+CASE 1:
+	# Requestor Threads:	1
+	# Resolver Threads:	1
+	# Total Run Time:	50297883 nanoseconds
+	# Thread Info:			
+				Requestor Thread 119747 serviced file: names1.txt
+				Requestor Thread 119749 serviced file: names2.txt
+				Requestor Thread 119752 serviced file: names3.txt
+				Requestor Thread 119753 serviced file: names4.txt
+				Requestor Thread 119754 serviced file: names5.txt
+--------------------------------------------------
+CASE 2:
+	# Requestor Threads:	1
+	# Resolver Threads:	3
+	# Total Run Time:	53478604 nanoseconds
+	# Thread Info:		
+				Requestor Thread 119849 serviced file: names1.txt
+				Requestor Thread 119851 serviced file: names2.txt
+				Requestor Thread 119854 serviced file: names3.txt
+				Requestor Thread 119855 serviced file: names4.txt
+				Requestor Thread 119856 serviced file: names5.txt
+--------------------------------------------------
+CASE 3:
+	# Requestor Threads:	3
+	# Resolver Threads:	1
+	# Total Run Time:	58670707 nanoseconds
+	# Thread Info:		Requestor Thread 120468 serviced file: names1.txt
+				Requestor Thread 120470 serviced file: names2.txt
+				Requestor Thread 120544 serviced file: names3.txt
+				Requestor Thread 120547 serviced file: names4.txt
+				Requestor Thread 120548 serviced file: names5.txt
+				
+--------------------------------------------------
+CASE 4:
+	# Requestor Threads:	3
+	# Resolver Threads:	3
+	# Total Run Time:	53278031 nanoseconds
+	# Thread Info:		Requestor Thread 120600 serviced file: names1.txt
+				Requestor Thread 120602 serviced file: names2.txt
+				Requestor Thread 120603 serviced file: names3.txt
+				Requestor Thread 120606 serviced file: names4.txt
+				Requestor Thread 120607 serviced file: names5.txt
+				
+--------------------------------------------------
+CASE 5:
+	# Requestor Threads:	5
+	# Resolver Threads:	5
+	# Total Run Time:	49149927 nanoseconds
+	# Thread Info:		Requestor Thread 120661 serviced file: names1.txt
+				Requestor Thread 120663 serviced file: names2.txt
+				Requestor Thread 120666 serviced file: names3.txt
+				Requestor Thread 120667 serviced file: names4.txt
+				Requestor Thread 120668 serviced file: names5.txt
+				
+--------------------------------------------------
+CASE 6:
+	# Requestor Threads:	8
+	# Resolver Threads:	5
+	# Total Run Time:	47191669 nanoseconds
+	# Thread Info:		Requestor Thread 120721 serviced file: names1.txt
+				Requestor Thread 120723 serviced file: names2.txt
+				Requestor Thread 120724 serviced file: names3.txt
+				Requestor Thread 120725 serviced file: names4.txt
+				Requestor Thread 120726 serviced file: names5.txt
+				
+--------------------------------------------------
+
