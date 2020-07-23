@@ -94,4 +94,23 @@ Assignments from Operating Systems (Linux-based Kernel)
 
 
 
-### Programming Assignment 4: Memory Management and Paging
+### <ins>Programming Assignment 4: Memory Management and Paging</ins>
+
+* **Description:** Implement a paging strategy that maximizes the performance of memory access in a set of predefined programs. Use various strategies for managing the system page table and controlling when pages are paged in and out. 
+
+* **Build Tree:**
+
+	`pager-lru.c`
+		> Least Recently Used implementation for memory paging. 
+
+	`pager-predict.c` 
+		> Predictive paging algorithm to increase performance of the solution.
+
+* **Build Instructions:**
+	
+	1. Compile:
+	
+		`gcc -Wall -Wextra pager-lru.c -o lru`
+	
+	2. Execute:
+		`./lru`
